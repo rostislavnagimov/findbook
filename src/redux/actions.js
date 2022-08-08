@@ -2,7 +2,6 @@ import {APIrequest} from '../Components/APIrequest';
 import {APILMrequest} from '../Components/APIrequest'
 import { NOERROR, SEARCH } from './types'
 import { LOAD, LOADMORE, ERROR } from './types';
-import { useSelector } from 'react-redux';
 
 export function actionSearch(query){
     return{
